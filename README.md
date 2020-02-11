@@ -35,10 +35,24 @@ Publishing Packages to the PyPI:
 
 ## Class 2
 
+Topics:
+
+  + code formatting / style / documentation (pep8)
+  + refactoring / simplification
+  + functional vs object-oriented
+  + classes, initialization, construction
+  + static methods, properties, attributes, class methods
+  + inheritance, super
+
 Lambda Materials:
 
   + https://learn.lambdaschool.com/ds/module/recqeF16aJfb1UTWF/
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module2-oop-code-style-and-reviews
+
+PEP8:
+
+  + https://pep8.org/
+  + https://pypi.org/project/autopep8/
 
 Docs / Docstrings:
   + https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
