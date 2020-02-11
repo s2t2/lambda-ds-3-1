@@ -35,6 +35,13 @@ Publishing Packages to the PyPI:
 
 ## Class 2
 
+Outline:
+
+  1) Docs and Docstrings
+  2) OOP Concepts
+  3) Classes and Inheritance in Python
+
+
 Topics:
 
   + code formatting / style / documentation (pep8)
