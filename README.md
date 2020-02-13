@@ -33,6 +33,11 @@ Publishing Packages to the PyPI:
   + https://test.pypi.org/project/s2t2-game-utils/
   + http://data-creative.info/reference-docs/2019/05/30/how-to-publish-python-package-pypi/
 
+Choosing a License:
+
+  + https://choosealicense.com/
+
+
 ## Class 2
 
 Outline:
@@ -133,6 +138,8 @@ Testing Frameworks:
   + https://travis-ci.com/
   + https://travis-ci.com/s2t2/playlist-service-py/builds/142617662
   + https://github.com/s2t2/playlist-service-py/pull/7
+  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/travis-ci.md
+  + https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/ci-123 (edited)
 
 
 setup from scratch:
