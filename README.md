@@ -30,6 +30,14 @@ To edit our Python scripts, we'll need a development-class text editor.
 
 Students who don't already have a preferred editor or IDE are encouraged to [download and install VS Code](https://code.visualstudio.com/). After doing so, it is important to install the [Python language extension](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#python-syntax-auto-completion) for code auto-completion capabilities, and you may want to further [customize your text editor's appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#basic-configuration).
 
+#### Virtual Environment Utility
+
+For reasons we'll discuss, it is a best practice to work on project-specific environments which have project-specific versions of the Python programming language and third-party Python packages.
+
+There are two main tools to help us do this. The first is the aforementioned Anaconda, which provides the `conda` utility.
+
+The second, which we'll be using more often in this unit, is [Pipenv](https://pipenv.readthedocs.io/en/latest/). Mac users can download Pipenv via homebrew (brew install pipenv). Windows users can consult the link for download instructions via pip.
+
 #### Version Control Utility
 
 Finally, we need a version control utility to manage different versions of our Python scripts, and interface with GitHub, where we can share our code and collaborate with others.
