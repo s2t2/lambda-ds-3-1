@@ -48,19 +48,7 @@ Students on Mac or Windows who are less comfortable with the command-line can us
 
 ## Additional Reference
 
-For more information about these development tools and command-line utilities, students may optionally reference the following notes...
-
-Command-line applications:
-
-  + [Terminal (Mac)](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md)
-  + [Git Bash (Windows)](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/git-bash.md)
-
-> QUICK COMMAND-LINE TIPS:
->   + press the up arrow to cycle through recent commands
->   + press "tab" to auto-complete filepaths
->   + type "clear" (or "command + k" on Mac) to clear the screen
-
-Command-line utilities:
+For more information about any of the aforementioned command-line utilities, students may optionally reference the following notes:
 
   + [Homebrew (Mac)](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/brew.md)
   + [The `conda` Utility](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/conda.md)
@@ -68,7 +56,6 @@ Command-line utilities:
   + [The `pip` Utility](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/pip.md)
   + [The `python` Utility](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/python.md)
   + [The `git` Utility](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/git.md)
-
 
 ## Preparation Exercise
 
