@@ -32,7 +32,7 @@ To edit our Python scripts, we'll need a development-class text editor. Students
 
 For reasons we'll discuss, it is a best practice to work on project-specific environments which have project-specific versions of the Python programming language and third-party Python packages.
 
-There are two main tools to help us do this. The first is the aforementioned Anaconda, which provides the `conda` utility.
+There are two main tools to help us do this. The first is the aforementioned Anaconda, which provides the `conda` utility. NOTE: when using `conda` to activate a virtual environment for the first time, when prompted to do so, Git Bash users on Windows may need to run `conda init bash` and Zsh users on Mac may need to run `conda init zsh`. NOTE: if experiencing issues recognizing `conda` commands on Mac OS Catalina, reference these [Catalina setup steps](https://github.com/prof-rossetti/intro-to-python/issues/13).
 
 The second, which we'll be using more often in this unit, is [Pipenv](https://pipenv.readthedocs.io/en/latest/). Mac users can download Pipenv via homebrew (`brew install pipenv`). Windows users can consult [this link](https://pipenv.readthedocs.io/en/latest/install/#pragmatic-installation-of-pipenv) for download instructions via pip.
 
@@ -44,7 +44,7 @@ Unless you already have one, please take a moment to [create a GitHub account](h
 
 We'll eventually want to get comfortable with using Git from the command line, so Windows use the aforementioned Git Bash application for this purpose. Mac users can download Git via homebrew (`brew install git`), or in many cases Git may already be installed on your computer.
 
-Students on Mac or Windows who are less comfortable with the command-line can use the [GitHub Desktop](https://desktop.github.com/) application as a temporary bridge tool which provides a graphical user interface (GUI) for performing Git version control operations.
+Students on Mac or Windows who are less comfortable with the command-line can use the [GitHub Desktop](https://desktop.github.com/) application as a temporary bridge tool which provides a graphical user interface (GUI) for performing Git version control operations. If doing so, students should [customize GitHub Desktop](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/github-desktop.md#configuration) to recognize their preferred dev tools (e.g. VS Code as the preferred text editor, and Terminal or Git Bash as the preferred command-line utility.)
 
 ## Preparation Exercise
 
