@@ -26,7 +26,7 @@ Windows users who don't already have a preferred command-line utility are encour
 
 #### Text Editor
 
-To edit our Python scripts, we'll need a development-class text editor. Students who don't already have a preferred editor or IDE are encouraged to [download and install VS Code](https://code.visualstudio.com/). After doing so, it is important to install the [Python language extension](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#python-syntax-auto-completion) for code auto-completion capabilities, and you may want to further [customize your text editor's appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#basic-configuration).
+To edit our Python scripts, we'll need a development-class text editor. Students who don't already have a preferred editor or IDE are encouraged to [download and install VS Code](https://code.visualstudio.com/). After doing so, it is important to install the [Python language extension](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#python-syntax-auto-completion) which provides code auto-completion capabilities, and you may want to further [customize your text editor's appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#basic-configuration).
 
 #### Virtual Environment Utility
 
