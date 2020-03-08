@@ -34,7 +34,7 @@ For reasons we'll discuss, it is a best practice to work on project-specific env
 
 There are two main tools to help us do this. The first is the aforementioned Anaconda, which provides the `conda` utility.
 
-The second, which we'll be using more often in this unit, is [Pipenv](https://pipenv.readthedocs.io/en/latest/). Mac users can download Pipenv via homebrew (`brew install pipenv`). Windows users can consult the link for download instructions via pip.
+The second, which we'll be using more often in this unit, is [Pipenv](https://pipenv.readthedocs.io/en/latest/). Mac users can download Pipenv via homebrew (`brew install pipenv`). Windows users can consult [this link](https://pipenv.readthedocs.io/en/latest/install/#pragmatic-installation-of-pipenv) for download instructions via pip.
 
 #### Version Control Utility
 
