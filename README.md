@@ -20,7 +20,7 @@ To get started, we'll want to [download and install Anaconda 3.7](https://www.an
 
 To run our Python scripts, we'll need a command-line utility.
 
-Mac users will use the built-in Terminal application (no need to download anything, although you may want to [customize your Terminal appearance](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md)).
+Mac users who don't already have a preferred command-line utility will use the built-in Terminal application (no need to download anything, although you may want to [customize your Terminal appearance](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md)).
 
 Windows users who don't already have a preferred command-line utility are encouraged to [download and install Git Bash](https://git-scm.com/downloads), which will integrate well with the other development tools and allow Windows users to write the same commands as Mac users.
 
@@ -28,7 +28,7 @@ Windows users who don't already have a preferred command-line utility are encour
 
 To edit our Python scripts, we'll need a development-class text editor.
 
-Unless you already have a preferred editor or IDE, you're encouraged to [download and install VS Code](https://code.visualstudio.com/). It is important to install the Python language extension and you may want to further [customize your text editor's appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#basic-configuration).
+Students who don't already have a preferred editor or IDE are encouraged to [download and install VS Code](https://code.visualstudio.com/). After doing so, it is important to install the [Python language extension](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#python-syntax-auto-completion) for code auto-completion capabilities, and you may want to further [customize your text editor's appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#basic-configuration).
 
 #### Version Control Utility
 
@@ -42,6 +42,6 @@ Students on Mac or Windows who are less comfortable with the command-line can us
 
 ## Preparation Exercise
 
-Finally, after installing and configuring these local development tools, in order to become more comfortable with command-line computing, you're recommended to complete this [Command-line Computing exercise](https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/command-line-computing).
+Finally, after installing and configuring these local development tools, in order to become more comfortable with command-line computing, you're recommended to complete this optional [Command-line Computing exercise](https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/command-line-computing).
 
 Good luck, drop questions in Slack if you need help, and see you in lecture!
