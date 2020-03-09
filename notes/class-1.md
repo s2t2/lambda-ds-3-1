@@ -9,6 +9,9 @@ Lambda Materials:
 Slides (BONUS):
   + https://docs.google.com/presentation/d/1Bb8ZVJ0NPJpVrd9PSltdrId9hXVt8Ty7iX5mr9ovIgs/edit?usp=sharing
 
+Python Modules:
+  + https://docs.python.org/3.7/tutorial/modules.html
+
 Publishing Packages to the PyPI (BONUS):
   + https://github.com/s2t2/game-utils-py
   + https://pypi.org/project/s2t2-game-utils/
