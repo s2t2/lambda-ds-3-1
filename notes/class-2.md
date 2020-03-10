@@ -1,9 +1,9 @@
 
-# Notes and Reference Materials - Class 2
+# Notes and Reference Materials - Unit 3 - Sprint 1 - Class 2
 
 Outline:
 
-  1) Docs and Docstrings
+  1) Docs, Style, PEP8 and Docstrings
   2) OOP Concepts
   3) Classes and Inheritance in Python
 
@@ -41,7 +41,7 @@ Style-checking:
 # use pip or pipenv to install. if pipenv save as dev dependency:
 pipenv install autopep8 --dev
 
-# make a commit before running the following command, as it will modify your files:
+# make a commit before running the following command, as the in-place flag will modify your files:
 autopep8 --in-place --aggressive --recursive .
 ```
 

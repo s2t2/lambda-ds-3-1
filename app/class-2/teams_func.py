@@ -1,4 +1,5 @@
 
+# example teams.py (functional approach)
 
 def advertise(my_team):
     print(f"HEY COME TO {my_team['city'].upper()} TO SEE OUR GAMES!!!")

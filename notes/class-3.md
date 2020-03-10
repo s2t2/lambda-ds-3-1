@@ -6,6 +6,8 @@ Lambda Material:
   + https://learn.lambdaschool.com/ds/module/recLjxZbBV3Jmrj2T/
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module3-containers-and-reproducible-builds
 
+## Part III
+
 Using a Docker image:
 
 ```sh
