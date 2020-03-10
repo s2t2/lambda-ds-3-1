@@ -31,10 +31,19 @@ Style, Formatting, PEP8, and Docstrings:
   + https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format
   + https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 
-(FYI) Style-checking:
+Style-checking:
 
   + https://pypi.org/project/autopep8/
-  + (BONUS) https://codeclimate.com/
+  + http://pep8online.com/checkresult
+  + https://codeclimate.com/
+
+```sh
+# use pip or pipenv to install. if pipenv save as dev dependency:
+pipenv install autopep8 --dev
+
+# make a commit before running the following command, as it will modify your files:
+autopep8 --in-place --aggressive --recursive .
+```
 
 (FYI) Doc generation, Read The Docs, Sphinx:
 
@@ -64,9 +73,9 @@ Classes and OOP:
 
 ## Part III
 
-Inheritance:
+Class Inheritance in Python:
 
-  + _________
+  + https://www.w3schools.com/python/python_inheritance.asp
 
 Inheritance Example (SKLearn):
 
