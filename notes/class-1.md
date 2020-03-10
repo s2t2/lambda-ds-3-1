@@ -2,6 +2,8 @@
 
 # Notes and Reference Materials - Class 1
 
+## Links
+
 Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recwEPR24pu5LCnA5
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments
@@ -13,15 +15,34 @@ Python Modules:
   + https://docs.python.org/3.7/tutorial/modules.html
 
 Publishing Packages to the PyPI (BONUS):
+  + https://pypi.org/
+  + https://test.pypi.org
+  + https://pypi.org/help/#publishing
+  + https://packaging.python.org/tutorials/packaging-projects/
+  + http://data-creative.info/reference-docs/2019/05/30/how-to-publish-python-package-pypi/
+
+Example Package Published to PyPI (BONUS):
   + https://github.com/s2t2/game-utils-py
   + https://pypi.org/project/s2t2-game-utils/
   + https://test.pypi.org/project/s2t2-game-utils/
-  + http://data-creative.info/reference-docs/2019/05/30/how-to-publish-python-package-pypi/
 
 Markdown Cheat-sheet (BONUS):
-
   + https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 Choosing a License (BONUS):
-
   + https://choosealicense.com/
+
+Connecting to GitHub via SSH:
+
+  + https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+## Commands
+
+```sh
+```
+
+```sh
+```
+
+```sh
+```

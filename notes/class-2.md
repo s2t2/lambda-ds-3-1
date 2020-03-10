@@ -1,13 +1,11 @@
 
 # Notes and Reference Materials - Class 2
 
-
 Outline:
 
   1) Docs and Docstrings
   2) OOP Concepts
   3) Classes and Inheritance in Python
-
 
 Topics:
 
@@ -23,20 +21,33 @@ Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recqeF16aJfb1UTWF/
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module2-oop-code-style-and-reviews
 
-Style, Formatting, and PEP8:
+## Part I
+
+Style, Formatting, PEP8, and Docstrings:
 
   + https://pep8.org/
-  + https://pypi.org/project/autopep8/
+  + https://www.python.org/dev/peps/pep-0008/
+  + https://www.python.org/dev/peps/pep-0257/
+  + https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format
+  + https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 
-Docs / Docstrings:
+(FYI) Style-checking:
+
+  + https://pypi.org/project/autopep8/
+  + (BONUS) https://codeclimate.com/
+
+(FYI) Doc generation, Read The Docs, Sphinx:
 
   + https://readthedocs.org/
   + https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+  + https://www.youtube.com/watch?v=b4iFyrLQQh4
 
-Doc generation in the wild (Pandas):
+(FYI) Doc generation example (Pandas):
 
   + https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
   + https://github.com/pandas-dev/pandas/blob/master/pandas/core/frame.py#L319
+
+## Part II
 
 Classes and OOP:
 
@@ -45,14 +56,19 @@ Classes and OOP:
   + https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
   + https://realpython.com/instance-class-and-static-methods-demystified/#static-methods
 
-Inheritance Example in the wild (SKLearn):
+(FYI) Example of Refactoring from Functions to Classes:
+  + https://github.com/s2t2/playlist-service-py/blob/25cae16201adc935f71e863a79d51690c00e492b/app/spotify_service.py
+  + https://github.com/s2t2/playlist-service-py/blob/master/app/spotify_service.py
+  + https://github.com/s2t2/playlist-service-py/blob/master/app/sync_service.py
+
+
+## Part III
+
+Inheritance:
+
+  + _________
+
+Inheritance Example (SKLearn):
 
   + https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/tree/_classes.py#L77
   + https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/tree/_classes.py#L589
-
-(BONUS) Refactoring from Functions to Classes:
-  + https://github.com/s2t2/playlist-service-py/blob/25cae16201adc935f71e863a79d51690c00e492b/app/spotify_service.py
-  + https://github.com/s2t2/playlist-service-py/blob/master/app/spotify_service.py
-
-(BONUS) Importing Classes:
-  + https://github.com/s2t2/playlist-service-py/blob/master/app/sync_service.py
