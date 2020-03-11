@@ -165,7 +165,7 @@ python -m my_labmdata/my_mod
 
 Publishing Packages to the PyPI:
   + https://pypi.org/
-  + https://test.pypi.org
+  + https://test.pypi.org (SIGN UP FOR AN ACCOUNT!)
   + https://pypi.org/help/#publishing
   + https://packaging.python.org/tutorials/packaging-projects/
   + http://data-creative.info/reference-docs/2019/05/30/how-to-publish-python-package-pypi/
