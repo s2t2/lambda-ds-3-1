@@ -1,10 +1,17 @@
 
-# Notes and Reference Materials - Class 3
+# Notes and Reference Materials - Unit 3 - Sprint 1 - Class 3
 
 Lambda Material:
 
   + https://learn.lambdaschool.com/ds/module/recLjxZbBV3Jmrj2T/
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module3-containers-and-reproducible-builds
+
+## Part I and II
+
+Review of Virtual Environments and OOP
+
+  + [Class 1](class-1.md)
+  + [Class 2](class-2.md)
 
 ## Part III
 
