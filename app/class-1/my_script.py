@@ -1,19 +1,16 @@
 
-import random
-#import my_mod
-from my_mod import announce
+# my_lambdata/my_script.py
 
-#import pandas
-#import pandas as pd
-from pandas import DataFrame
+import pandas
 
-#df = pandas.DataFrame({"a":[1,2,3], "b":[4,5,6]})
-#df = pd.DataFrame({"a":[1,2,3], "b":[4,5,6]})
-df = DataFrame({"a":[1,2,3], "b":[4,5,6]})
+from my_lambdata.my_mod import enlarge
 
+print("HELLO WORLD")
+
+df = pandas.DataFrame({"state": ["CT", "CO", "CA", "TX"]})
 print(df.head())
 
-print(random.choice(["rock", "paper", "scissors"]))
-
-#my_mod.announce()
-announce()
+print("-----------------")
+x = 5
+print("NUMBER", x)
+print("ENLARGED NUMBER", enlarge(x)) # invoking our function!!

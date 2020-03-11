@@ -1,21 +1,21 @@
-
+# my_lambdata/my_mod.py
 
 def enlarge(n):
     """
-    this function enlarges the number input
+    Param n is a number
+    Function will enlarge the number
     """
     return n * 100
 
+# this code breaks our ability to import enlarge from other files, if left in the global scope:
+#
+# print("HELLO")
+# y = int(input("Please choose a number"))
+# print(y, enlarge(y))
 
-def announce():
-    print("HELLO HAPPY THURSDAY NIGHT!")
-
-# if this script is being run from the command-line
 if __name__ == "__main__":
-
-    print(__name__)
-    print(__file__)
-
-    x = 5
-
-    user_selection = input("PLEASE CHOOSE ROCK, PAPER, SCISSORS")
+    # only run the code below IF this script is invoked from the command-line
+    # not if it is imported from another script
+    print("HELLO")
+    y = int(input("Please choose a number"))
+    print(y, enlarge(y))
