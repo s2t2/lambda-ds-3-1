@@ -7,10 +7,10 @@ Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recq9eVVCzZpgeH58/
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module4-software-testing-documentation-and-licensing
 
-(BONUS) Testing Notes:
+(BONUS / FYI) Testing Notes:
   + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/software/testing.md
 
-(BONUS) Previous Lecture and Materials on Testing:
+(BONUS / FYI) Previous Lecture and Materials on Testing:
   + https://www.youtube.com/watch?v=pS8pzmtqxVA
   + https://github.com/prof-rossetti/lambda-lecture-pytest
 
@@ -47,9 +47,9 @@ pytest
 
 ## Part III
 
-(BONUS) Continuous Integration:
+(BONUS / FYI) Continuous Integration:
   + https://travis-ci.com/
   + https://travis-ci.com/s2t2/playlist-service-py/builds/142617662
   + https://github.com/s2t2/playlist-service-py/pull/7
   + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/travis-ci.md
-  + https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/ci-123 (edited)
+  + https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/ci-123
