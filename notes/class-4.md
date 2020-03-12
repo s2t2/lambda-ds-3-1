@@ -14,10 +14,14 @@ Lambda Materials:
   + https://www.youtube.com/watch?v=pS8pzmtqxVA
   + https://github.com/prof-rossetti/lambda-lecture-pytest
 
+See also the [example test code](/test/).
+
 ## Part I
 
 Testing Frameworks (Unittest):
   + https://docs.python.org/3.5/library/unittest.html
+
+Running tests:
 
 ```sh
 python -m unittest test.team_test
@@ -30,22 +34,12 @@ python -m unittest test.team_test
 Testing Frameworks (Pytest):
   + https://docs.pytest.org/en/latest/
 
-<<<<<<< HEAD
-
-Installing:
-=======
-install pytest as a development dependency:
->>>>>>> ee0cfdafbbfca676d89dcfaa6908b6bd75db4bf9
+Installing pytest as a development dependency::
 
 ```sh
 pipenv install pytest --dev
 ```
-<<<<<<< HEAD
 Running tests:
-=======
-
-run tests:
->>>>>>> ee0cfdafbbfca676d89dcfaa6908b6bd75db4bf9
 
 ```sh
 pytest
