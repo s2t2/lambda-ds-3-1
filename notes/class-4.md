@@ -36,7 +36,11 @@ Testing Frameworks (Pytest):
   + (FYI / BONUS) https://github.com/prof-rossetti/intro-to-python/blob/master/notes/python/packages/pytest.md
   + (FYI / BONUS) https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/testing-123
 
-Installing pytest as a development dependency::
+(BONUS / FYI) More Pytest resources:
+  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/python/packages/pytest.md
+  + https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/testing-123
+
+Installing pytest as a development dependency:
 
 ```sh
 pipenv install pytest --dev
