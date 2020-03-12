@@ -26,12 +26,12 @@ Testing Frameworks:
   + https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/ci-123 (edited)
 
 
-setup from scratch:
+install pytest as a development dependency:
 
 ```sh
-pipenv install
 pipenv install pytest --dev
 ```
+
 run tests:
 
 ```sh
