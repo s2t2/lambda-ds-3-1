@@ -30,13 +30,22 @@ python -m unittest test.team_test
 Testing Frameworks (Pytest):
   + https://docs.pytest.org/en/latest/
 
+<<<<<<< HEAD
 
 Installing:
+=======
+install pytest as a development dependency:
+>>>>>>> ee0cfdafbbfca676d89dcfaa6908b6bd75db4bf9
 
 ```sh
 pipenv install pytest --dev
 ```
+<<<<<<< HEAD
 Running tests:
+=======
+
+run tests:
+>>>>>>> ee0cfdafbbfca676d89dcfaa6908b6bd75db4bf9
 
 ```sh
 pytest
