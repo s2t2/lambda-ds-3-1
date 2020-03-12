@@ -27,6 +27,7 @@ Lambda Materials:
 
 (FYI) Choosing a License:
   + https://choosealicense.com/
+  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/software/licensing.md
 
 ### Git and GitHub
 
