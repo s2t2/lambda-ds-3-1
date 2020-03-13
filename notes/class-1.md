@@ -8,9 +8,6 @@ Lambda Materials:
 
 ## Part I
 
-(FYI) Slides:
-  + https://docs.google.com/presentation/d/1Bb8ZVJ0NPJpVrd9PSltdrId9hXVt8Ty7iX5mr9ovIgs/edit?usp=sharing
-
 (FYI) Command-line Utility Reference Docs:
   + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/brew.md
   + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/conda.md
@@ -28,6 +25,51 @@ Lambda Materials:
 (FYI) Choosing a License:
   + https://choosealicense.com/
   + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/software/licensing.md
+
+### Notebooks vs Local Development
+
+#### Co-lab Notebooks
+
+Advantages:
+  + Minimal learning curve
+  + High degree of visibility and shareability
+  + Effective presentation when code mixed with markdown and data visualizations
+  + GPU / TPU processing power
+
+Disadvantages:
+  + Can only write and execute Python code
+  + Minimal processing power and parallel processing capabilities (excluding GPU / TPU)
+  + Relatively low degree of customization
+  + Can’t run certain kinds of apps written in frameworks like Flask
+
+#### Local Development Tools
+
+Advantages:
+  + Can write and execute code written in many different languages and frameworks
+  + Greater degree of customization / control
+  + Greater privacy (not managed by Google)
+  + More processing power and parallel processing capabilities (excluding GPU / TPU)
+
+Disadvantages:
+  + Steeper learning curve, likely many tools to learn
+  + Not as immediately shareable, unless pushing code to GitHub or a remote server
+
+
+
+### Local Development Tools
+
+Tool | Purpose
+--- | ---
+Text Editor or IDE (VS Code) | For creating, reading, editing, and deleting files of text and software code
+Command-line Application (Terminal or Git Bash, etc.) | For interfacing with the computer in programmatic ways (i.e. to install and run software) 
+Programming Language Utility (`python`) | For executing software written in a given programming language
+Programming Language - Version Mgmt Utility (`conda` or `pipenv`) | For installing different versions of a programming language, to suit project-specific purposes
+Programming Language - Package Mgmt Utility (`pip` or `pipenv`) | For installing third-party packages and libraries written in a given programming language
+Programming Language - Virtual Environment Mgmt Utility (`conda` or `pipenv`) | For installing specific versions of third-party packages, to suit project-specific purposes
+Version Control Utility (`git`) | For incrementally saving different versions of software files
+Server Management Utility (`heroku`) | For provisioning and managing remote servers on which to run software
+
+
 
 ### Git and GitHub
 
@@ -55,10 +97,18 @@ git push origin master # uploads the code to GitHub
 
 ### Virtual Environments
 
-> NOTE: we'll use either Anaconda or Pipenv for managing virtual environments.
-> The instructions below show you both ways (for instructional purposes), but normally you'd just choose one!
+A virtual environment is a place where we install specific version of the python programming language and third-party Python packages. Different projects often require different dependencies, and project-specific virtual environments help us prevent conflicts between different versions.
+
+> NOTE: we'll use either Anaconda or Pipenv for managing virtual environments. The instructions below show you both ways (for instructional purposes), but normally you'd just choose one!
 
 #### Anaconda Environments
+
+Advantages:
+  + Can be created, modified, activated from anywhere on the filesystem
+  + Integrates with pip for python package management
+  
+Disadvantages:
+  + Requires specification of development and production dependencies in different files (“requirements.txt” vs. “dev-requirements.txt”, for example)
 
 Managing a virtual environment with Anaconda:
 
@@ -76,6 +126,16 @@ pip list # verifies packages are installed properly
 
 #### Pipenv Environments
 
+Advantages:
+  + Handles python package management
+  + Can specify development and production dependencies in same file (“Pipfile”)
+  + Performs a "locking" process to provide more details about the package versions and ensure dependencies are not in conflict
+
+Disadvantages:
+  + Must be created, modified, activated from the given project directory !!!!!
+  + Replaces pip for python package management
+  + Locking process takes a while
+
 > Make sure you run these commands from the repo's root dir!
 > Also make sure to deactivate all anaconda env(s) as necessary (`conda deactivate`) before proceeding
 
@@ -87,8 +147,6 @@ pipenv install pandas # installs a given package inside the virtual env, and aut
 pipenv shell # activates the virtual env
 pip list # verifies packages are installed properly
 ```
-
-
 
 
 
