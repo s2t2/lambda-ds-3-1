@@ -11,7 +11,7 @@ Topics:
 
   + code formatting / style / documentation (pep8)
   + refactoring / simplification
-  + functional vs object-oriented
+  + functional vs object-oriented programming
   + classes, initialization, construction
   + static methods, properties, attributes, class methods
   + inheritance, super
@@ -63,7 +63,9 @@ Classes and OOP:
   + https://docs.python.org/3/tutorial/classes.html
   + https://realpython.com/python3-object-oriented-programming/
   + https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
+  + https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
   + https://realpython.com/instance-class-and-static-methods-demystified/#static-methods
+
 
 (FYI) Example of Refactoring from Functions to Classes:
   + https://github.com/s2t2/playlist-service-py/blob/25cae16201adc935f71e863a79d51690c00e492b/app/spotify_service.py
