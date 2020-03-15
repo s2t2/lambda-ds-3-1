@@ -34,7 +34,7 @@ Style, Formatting, PEP8, and Docstrings:
 Style-checking:
 
   + https://pypi.org/project/autopep8/
-  + http://pep8online.com/checkresult
+  + http://pep8online.com/
   + https://codeclimate.com/
 
 ```sh
