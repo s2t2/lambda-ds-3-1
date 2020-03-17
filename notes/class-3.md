@@ -65,3 +65,8 @@ docker attach <container id> # reconnects to a running docker container
 ```
 
 > Special [thanks](https://app.slack.com/client/T4JUEB3ME/GPP0JA5RD/thread/GPP0JA5RD-1581534096.091100) to Benjamin and Caleb from DS 11
+
+FYI: Here's a more in-depth walkthrough of Docker, for those who are interested:
+
+  + https://youtu.be/nrzxKL4bsLI
+ 
