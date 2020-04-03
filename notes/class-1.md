@@ -86,7 +86,8 @@ Advantages:
   + Integrates with pip for python package management
 
 Disadvantages:
-  + Requires specification of development and production dependencies in different files (“requirements.txt” vs. “dev-requirements.txt”, for example)
+  + Requires specification of development and production dependencies in different files ("requirements.txt" vs. "dev-requirements.txt", for example)
+  + Requires specification of python version using a separate file called the "runtime.txt"
 
 Managing a virtual environment with Anaconda:
 
@@ -106,7 +107,7 @@ pip list # verifies packages are installed properly
 
 Advantages:
   + Handles python package management
-  + Can specify development and production dependencies in same file (“Pipfile”)
+  + Can specify development and production dependencies, as well as the python version, in same file ("Pipfile")
   + Performs a "locking" process to provide more details about the package versions and ensure dependencies are not in conflict
 
 Disadvantages:

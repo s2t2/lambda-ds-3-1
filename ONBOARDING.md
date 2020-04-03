@@ -1,9 +1,7 @@
 
 # Unit 3 Onboarding
 
-I know many of you are already familiar with local development to varying degrees, but some of you may be completely unfamiliar. So follow the instructions below as they pertain to your individual situation.
-
-## Local Development Tools
+## Overview of Local Development Tools
 
 Category | Recommended Tool(s) | Purpose
 --- | --- | ---
@@ -15,9 +13,11 @@ Programming Language Package Manager | Pip (`pip`) in general and in Anaconda en
 Version Control Utility | Git (`git`) | For incrementally saving different versions of software files, and interfacing with GitHub, which is an online place to share code repositories.
 Server Management Utility | Heroku (`heroku`) | For provisioning and managing remote servers on which to run software.
 
+I know many of you are already familiar with local development to varying degrees, but some of you may be completely unfamiliar. So follow the instructions below as they pertain to your individual situation.
+
 ### Text Editor
 
-To edit Python files locally, we'll need a development-class text editor. Students who don't already have a preferred editor or IDE are encouraged to [download and install VS Code](https://code.visualstudio.com/). After doing so, it is important to install the [Python language extension](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#python-syntax-auto-completion) which provides code auto-completion capabilities.
+To edit Python files locally, we'll need a development-class text editor. Students who don't already have a preferred editor or IDE are encouraged to [download and install VS Code](https://code.visualstudio.com/). After doing so, it is important to install the [Python language extension](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#python-syntax-auto-completion) which provides code syntax-highlighting and auto-completion capabilities.
 
 > OPTIONAL: you may also want to further [customize your text editor's appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/vs-code.md#basic-configuration), as desired.
 
@@ -59,7 +59,7 @@ The second alternative, which we'll be using almost exclusively in this unit, is
 
 ### Version Control Utility
 
-Finally, we need a version control utility to manage different versions of our Python scripts, and interface with GitHub, where we can share our code and collaborate with others.
+Finally, we need a version control utility to manage different versions of our software files, and interface with GitHub, where we can share our code and collaborate with others.
 
 Unless you already have one, please take a moment to [create a GitHub account](https://github.com/) and consider optionally signing up for the [GitHub Student Developer Pack](https://education.github.com/pack), which provides some free resources. You are encouraged to also optionally [generate SSH keys and associate them with your GitHub account](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), which will allow you to connect to GitHub over the SSH protocol so you don't have to repeatedly type your username and/or password like you would with the HTTPS protocol.
 
