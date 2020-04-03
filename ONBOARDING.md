@@ -27,7 +27,8 @@ To run Python files locally, we'll need a command-line application.
 
 Mac users who don't already have a preferred command-line application are encouraged to use the built-in Terminal application (no need to download anything).
 
-> OPTIONAL (for Mac users): you may want to [customize your Terminal appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md), as desired. NOTE: newer Macs may use the "zsh" shell instead of the "bash" shell, in which case you can do the "\~/.bash_profile" customizations using a file like "\~/.zshrc" instead.
+> OPTIONAL (for Mac users): you may want to [customize your Terminal appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md), as desired.
+> NOTE: newer Macs may use the "zsh" shell instead of the "bash" shell, in which case you can do the "\~/.bash_profile" customizations using a file like "\~/.zshrc" instead.
 
 Windows users who don't already have a preferred command-line application are encouraged to [download and install Git Bash](https://git-scm.com/downloads), which will integrate well with the other development tools and allow Windows users to write the same commands as Mac users. Ultimately, Windows users may opt to use an alternative tool such as the Command Prompt or Anaconda Prompt, but if you do you are responsible for translating unix-style commands you'll see everywhere to windows-style commands. The command-line computing exercise referenced at the bottom of this document can help!
 
@@ -49,7 +50,8 @@ For reasons we'll discuss, it is a best practice to work on project-specific env
 
 The first alternative, which you may be using almost exclusively in other units, is the aforementioned Anaconda, which provides the `conda` utility. It is good to be familiar with using `conda` virtual environments. For more information on Anaconda, see this bonus [`conda` reference document](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/conda.md).
 
-> NOTE: when using `conda` to activate a virtual environment for the first time, when prompted to do so, Git Bash users on Windows may need to run `conda init bash` and Zsh users on Mac may need to run `conda init zsh`. NOTE: if experiencing issues recognizing `conda` commands on Mac OS Catalina, reference these [Catalina setup steps](https://github.com/prof-rossetti/intro-to-python/issues/13).
+> NOTE: when using `conda` to activate a virtual environment for the first time, when prompted to do so, Git Bash users on Windows may need to run `conda init bash` and Zsh users on Mac may need to run `conda init zsh`.
+> NOTE: if experiencing issues recognizing `conda` commands on Mac OS Catalina, reference these [Catalina setup steps](https://github.com/prof-rossetti/intro-to-python/issues/13).
 
 The second alternative, which we'll be using almost exclusively in this unit, is [Pipenv](https://pipenv.readthedocs.io/en/latest/). For more information on Pipenv, see this bonus [`pipenv` reference document](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/python/packages/pipenv.md). Installation guidance:
 
