@@ -8,11 +8,11 @@ I know many of you are already familiar with local development to varying degree
 Category | Recommended Tool(s) | Purpose
 --- | --- | ---
 Text Editor or IDE | VS Code | For creating, reading, editing, and deleting files of text and code.
-Command-line Application | Mac: Terminal. Windows: Git Bash, or whatever you can get to work! | For interfacing with the computer in programmatic ways (i.e. installing and running software).
+Command-line Application | Mac Terminal, Windows Git Bash, the built-in terminal in VS Code, or whatever you can get to work! | For interfacing with the computer in programmatic ways (i.e. installing and running software).
 Programming Language | Python (`python`) | For executing software written in a given programming language.
 Programming Language Virtual Environment Manager | Anaconda (`conda`) or Pipenv (`pipenv`) | For installing different versions of a programming language, to suit project-specific purposes, because sometimes you might need to use a different version.
-Programming Language Package Manager | Anaconda environments: `pip`. Pipenv environments: `pipenv`. | For installing third-party packages written in a given programming language.
-Version Control Utility | Git (`git`) | For incrementally saving different versions of software files.
+Programming Language Package Manager | Pip (`pip`) in general and in Anaconda environments, but replaced by `pipenv` for Pipenv environments. | For installing third-party packages written in a given programming language.
+Version Control Utility | Git (`git`) | For incrementally saving different versions of software files, and interfacing with GitHub, which is an online place to share code repositories.
 Server Management Utility | Heroku (`heroku`) | For provisioning and managing remote servers on which to run software.
 
 ### Text Editor
