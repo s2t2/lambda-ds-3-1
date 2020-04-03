@@ -7,13 +7,13 @@ I know many of you are already familiar with local development to varying degree
 
 Category | Recommended Tool(s) | Purpose
 --- | --- | ---
-Text Editor or IDE | VS Code | For creating, reading, editing, and deleting files of text and software code
+Text Editor or IDE | VS Code | For creating, reading, editing, and deleting files of text and code.
 Command-line Application | Mac: Terminal. Windows: Git Bash, or whatever you can get to work! | For interfacing with the computer in programmatic ways (i.e. installing and running software).
-Programming Language | `python` | For executing software written in a given programming language.
+Programming Language | Python (`python`) | For executing software written in a given programming language.
 Programming Language Virtual Environment Manager | Anaconda (`conda`) or Pipenv (`pipenv`) | For installing different versions of a programming language, to suit project-specific purposes, because sometimes you might need to use a different version.
 Programming Language Package Manager | Anaconda environments: `pip`. Pipenv environments: `pipenv`. | For installing third-party packages written in a given programming language.
-Version Control Utility (`git`) | For incrementally saving different versions of software files.
-Server Management Utility (`heroku`) | For provisioning and managing remote servers on which to run software.
+Version Control Utility | Git (`git`) | For incrementally saving different versions of software files.
+Server Management Utility | Heroku (`heroku`) | For provisioning and managing remote servers on which to run software.
 
 ### Text Editor
 
@@ -27,11 +27,11 @@ To run Python files locally, we'll need a command-line application.
 
 Mac users who don't already have a preferred command-line application are encouraged to use the built-in Terminal application (no need to download anything).
 
-> OPTIONAL (for Mac users): you may want to [customize your Terminal appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md), as desired. NOTE: newer Macs may use the "zsh" shell instead of the "bash" shell, in which case you can do the "~/.bash_profile" customizations using a file like "~/.zshrc" instead.
+> OPTIONAL (for Mac users): you may want to [customize your Terminal appearance and functionality](https://github.com/prof-rossetti/intro-to-python/blob/master/exercises/command-line-computing/mac-terminal-config.md), as desired. NOTE: newer Macs may use the "zsh" shell instead of the "bash" shell, in which case you can do the "\~/.bash_profile" customizations using a file like "\~/.zshrc" instead.
 
 Windows users who don't already have a preferred command-line application are encouraged to [download and install Git Bash](https://git-scm.com/downloads), which will integrate well with the other development tools and allow Windows users to write the same commands as Mac users. Ultimately, Windows users may opt to use an alternative tool such as the Command Prompt or Anaconda Prompt, but if you do you are responsible for translating unix-style commands you'll see everywhere to windows-style commands. The command-line computing exercise referenced at the bottom of this document can help!
 
-> NOTE: if you'd rather use the built-in terminal inside VS Code text editor, you can do that, just make sure it works for you!
+Mac or Windows students who'd rather configure and use the built-in terminal inside the VS Code text editor may do so, just make sure it works for you!
 
 ### Programming Language
 

@@ -12,9 +12,9 @@ In the first sprint, we'll focus on getting more comfortable with local developm
 
 To prepare for the first sprint, you'll want to make sure you are comfortable running local development tools to the greatest extent possible before the first class, so you don't get frustrated or overwhelmed next week. Towards this end I have prepared a Getting Started Guide for you to follow:
 
-_________________
+https://github.com/s2t2/lambda-ds-3-1/blob/master/ONBOARDING.md
 
-If you have any questions or run into any issues, post a message here. I'll be monitoring Slack over the weekend and we can work them out together.
+FYI - I wouldn't be surprised if this entire process takes you three hours. If you have any questions or run into any issues, post a message here. I'll be monitoring Slack over the weekend and we can work them out together.
 ```
 
 
