@@ -8,17 +8,6 @@ Lambda Materials:
 
 ## Part I
 
-(FYI) Command-line Utility Reference Docs:
-  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/brew.md
-  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/conda.md
-  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/python/packages/pipenv.md
-  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/pip.md
-  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/python.md
-  + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/clis/git.md
-
-(FYI) Connecting to GitHub via SSH:
-  + https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
-
 (FYI) Markdown Cheat-sheet:
   + https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
@@ -56,18 +45,7 @@ Disadvantages:
 
 
 
-### Local Development Tools
 
-Tool | Purpose
---- | ---
-Text Editor or IDE (VS Code) | For creating, reading, editing, and deleting files of text and software code
-Command-line Application (Terminal or Git Bash, etc.) | For interfacing with the computer in programmatic ways (i.e. to install and run software) 
-Programming Language Utility (`python`) | For executing software written in a given programming language
-Programming Language - Version Mgmt Utility (`conda` or `pipenv`) | For installing different versions of a programming language, to suit project-specific purposes
-Programming Language - Package Mgmt Utility (`pip` or `pipenv`) | For installing third-party packages and libraries written in a given programming language
-Programming Language - Virtual Environment Mgmt Utility (`conda` or `pipenv`) | For installing specific versions of third-party packages, to suit project-specific purposes
-Version Control Utility (`git`) | For incrementally saving different versions of software files
-Server Management Utility (`heroku`) | For provisioning and managing remote servers on which to run software
 
 
 
@@ -106,7 +84,7 @@ A virtual environment is a place where we install specific version of the python
 Advantages:
   + Can be created, modified, activated from anywhere on the filesystem
   + Integrates with pip for python package management
-  
+
 Disadvantages:
   + Requires specification of development and production dependencies in different files (“requirements.txt” vs. “dev-requirements.txt”, for example)
 
