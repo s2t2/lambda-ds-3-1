@@ -2,54 +2,25 @@
 
 # Notes and Reference Materials - Class 1
 
+Topics:
+  1. Git Repositories
+  2. Pipenv Virtual Environments
+  3. Python Imports, Modules, and Packages
+  4. Releasing a Python Package to PyPI
+
 Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recwEPR24pu5LCnA5
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments
 
-## Part I
 
-(FYI) Markdown Cheat-sheet:
+## Part I - Git Repositories
+
+README files (BONUS):
   + https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-(FYI) Choosing a License:
+Choosing a License (BONUS):
   + https://choosealicense.com/
   + https://github.com/prof-rossetti/intro-to-python/blob/master/notes/software/licensing.md
-
-### Notebooks vs Local Development
-
-#### Co-lab Notebooks
-
-Advantages:
-  + Minimal learning curve
-  + High degree of visibility and shareability
-  + Effective presentation when code mixed with markdown and data visualizations
-  + GPU / TPU processing power
-
-Disadvantages:
-  + Can only write and execute Python code
-  + Minimal processing power and parallel processing capabilities (excluding GPU / TPU)
-  + Relatively low degree of customization
-  + Can’t run certain kinds of apps written in frameworks like Flask
-
-#### Local Development Tools
-
-Advantages:
-  + Can write and execute code written in many different languages and frameworks
-  + Greater degree of customization / control
-  + Greater privacy (not managed by Google)
-  + More processing power and parallel processing capabilities (excluding GPU / TPU)
-
-Disadvantages:
-  + Steeper learning curve, likely many tools to learn
-  + Not as immediately shareable, unless pushing code to GitHub or a remote server
-
-
-
-
-
-
-
-### Git and GitHub
 
 Managing Repositories:
 
@@ -73,13 +44,13 @@ git remote -v # shows the remote addresses associated with this local repo, for 
 git push origin master # uploads the code to GitHub
 ```
 
-### Virtual Environments
+## Part II - Virtual Environments
 
 A virtual environment is a place where we install specific version of the python programming language and third-party Python packages. Different projects often require different dependencies, and project-specific virtual environments help us prevent conflicts between different versions.
 
 > NOTE: we'll use either Anaconda or Pipenv for managing virtual environments. The instructions below show you both ways (for instructional purposes), but normally you'd just choose one!
 
-#### Anaconda Environments
+### Anaconda Environments
 
 Advantages:
   + Can be created, modified, activated from anywhere on the filesystem
@@ -103,7 +74,7 @@ pip install -r requirements.txt # installs inside the virtual env all packages l
 pip list # verifies packages are installed properly
 ```
 
-#### Pipenv Environments
+### Pipenv Environments
 
 Advantages:
   + Handles python package management
@@ -132,13 +103,15 @@ pip list # verifies packages are installed properly
 
 
 
-## Part II
+## Part III - Python Imports, Modules, and Packages
 
 Python Modules:
   + https://docs.python.org/3.7/tutorial/modules.html
 
+
 ```py
 # my_lambdata/__init__.py
+
 # nothing to see here!
 ```
 
@@ -184,12 +157,14 @@ print("NUMBER", x)
 print("ENLARGED NUMBER", enlarge(x)) # invoking our function!!
 ```
 
-Run the scripts:
+Running the scripts:
 
 ```sh
 python my_labmdata/my_script.py
 python my_labmdata/my_mod.py
 
+# note, the alternative "module" invocation syntax
+# ... required if our script imports from another local file:
 python -m my_labmdata/my_script
 python -m my_labmdata/my_mod
 ```
@@ -199,7 +174,7 @@ python -m my_labmdata/my_mod
 
 
 
-## Part III
+## Part IV - Releasing a Package to PyPI
 
 Publishing Packages to the PyPI:
   + https://pypi.org/
@@ -208,40 +183,52 @@ Publishing Packages to the PyPI:
   + https://packaging.python.org/tutorials/packaging-projects/
   + http://data-creative.info/reference-docs/2019/05/30/how-to-publish-python-package-pypi/
 
-(FYI) Example Package Published to PyPI:
+Example Package Published to PyPI (BONUS):
   + https://github.com/s2t2/game-utils-py
   + https://pypi.org/project/s2t2-game-utils/
   + https://test.pypi.org/project/s2t2-game-utils/
 
+Installing the "twine" package as a development dependency:
 
 ```sh
 pipenv install twine --dev
 ```
 
+> FYI: passing --dev specifies the package should be installed as a development dependency. We do this with packages that our source code doesn't require to perform its desired functionality (e.g. packages for testing and distributing the code)
+
+Specifying metadata about our package in a new file called "setup.py":
+
 ```py
 # setup.py file
+
 from setuptools import find_packages, setup
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
+
 setup(
-    name="s2t2-lambdata-12",
+    name="my-package-name", # the name that you will install via pip
     version="1.0",
-    author="MJ Rossetti",
-    author_email="datacreativellc@gmail.com",
-    description="For example purposes",
+    author="Your Full Name",
+    author_email="your@email.com",
+    description="A short description",
     long_description=long_description,
     long_description_content_type="text/markdown", # required if using a md file for long desc
     #license="MIT",
-    url="https://github.com/s2t2/lambdata-12y",
+    url="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME",
     #keywords="",
     packages=find_packages() # ["my_lambdata"]
 )
 ```
 
-```sh
-python setup.py sdist bdist_wheel # saves a compressed version of the code in the "dist" dir
-```
+After configuring the "setup.py" file, invoking it will save a compressed version of the code in the "dist" directory.
 
 ```sh
-twine upload --repository-url https://test.pypi.org/legacy/ dist/* # uploads the package to the test PyPI server, where it can be downloaded by others via pip commands
+python setup.py sdist bdist_wheel
+```
+
+After the package source code has been "built" locally, use twine to upload the distribution files to PyPI (or in this case the test PyPI server), where it can be downloaded by others via Pip commands:
+
+```sh
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
