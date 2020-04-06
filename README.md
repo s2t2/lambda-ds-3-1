@@ -2,8 +2,6 @@
 
 A companion repository to provide reference links and code to accompany the official Lambda materials.
 
-## Reference
-
 Lambda Materials:
 
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering
@@ -14,14 +12,11 @@ Example completed "Lambdata" packages (solutions):
   + https://github.com/s2t2/lambdata-12
   + https://github.com/s2t2/my-lambdata-pt4
 
-Other Package examples (BONUS reference):
-  + https://github.com/s2t2/game-utils-py
-
-## [Getting Started / Onboarding Guide](/ONBOARDING.md)
-
 ## Outline
 
 A mapping of instructional modules to the schedule of classes.
+
+### [Getting Started / Onboarding Guide](/ONBOARDING.md)
 
 ### [Class 1](/notes/class-1.md)
 
