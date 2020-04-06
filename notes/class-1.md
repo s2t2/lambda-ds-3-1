@@ -86,16 +86,19 @@ Disadvantages:
   + Replaces pip for python package management
   + Locking process takes a while
 
-> Make sure you run these commands from the repo's root dir!
-> Also make sure to deactivate all anaconda env(s) as necessary (`conda deactivate`) before proceeding
+> IMPORTANT: Make sure you run the following commands from the repo's root dir!
+>
+> IMPORTANT: Also make sure to deactivate all anaconda env(s) as necessary (`conda deactivate`) before proceeding...
 
 Managing a virtual environment with Pipenv:
 
 ```sh
-pipenv install --python 3.7 # creates a new virtual env for the first time, also creates Pipfile and Pipfile.lock
-pipenv install pandas # installs a given package inside the virtual env, and auto-adds to the Pipfiles
+pipenv --python 3.7 # creates a new virtual env for the first time, also creates Pipfile
+pipenv install pandas # installs a given package inside the virtual env, creates a Pipfile.lock if installing something for the first time, and auto-adds pandas to the Pipfile and Pipfile.lock
 pipenv shell # activates the virtual env
-pip list # verifies packages are installed properly
+
+python --version # verifies the right version of Python has been installed
+pip list # verifies packages have been installed properly
 ```
 
 
