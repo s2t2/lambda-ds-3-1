@@ -98,6 +98,15 @@ Example of Refactoring from Functions to Classes (BONUS):
   + https://github.com/s2t2/playlist-service-py/blob/master/app/spotify_service.py
   + https://github.com/s2t2/playlist-service-py/blob/master/app/sync_service.py
 
+Characteristics of an "object":
+
+  + Identity
+  + Attributes / Properties
+  + Behaviors / Methods
+
+Example objects:
+
+![different color polos on the shelf](/img/polos.png)
 
 Example class definition:
 
