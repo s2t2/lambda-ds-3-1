@@ -98,12 +98,6 @@ Classes and OOP:
   + https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
   + https://realpython.com/instance-class-and-static-methods-demystified/#static-methods
 
-
-Example of Refactoring from Functions to Classes (BONUS):
-  + https://github.com/s2t2/playlist-service-py/blob/25cae16201adc935f71e863a79d51690c00e492b/app/spotify_service.py
-  + https://github.com/s2t2/playlist-service-py/blob/master/app/spotify_service.py
-  + https://github.com/s2t2/playlist-service-py/blob/master/app/sync_service.py
-
 Characteristics of an "object":
 
   + Identity
@@ -202,6 +196,11 @@ if __name__ == "__main__":
         print(team.full_name) #> OOP (invoke the method on the object)
         team.advertise()
 ```
+
+A real-world example of Refactoring from Functions to Classes (BONUS):
+  + https://github.com/s2t2/playlist-service-py/blob/25cae16201adc935f71e863a79d51690c00e492b/app/spotify_service.py
+  + https://github.com/s2t2/playlist-service-py/blob/master/app/spotify_service.py
+  + https://github.com/s2t2/playlist-service-py/blob/master/app/sync_service.py
 
 ## Part IV
 
