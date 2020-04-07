@@ -1,11 +1,12 @@
 
-# Notes and Reference Materials - Unit 3 - Sprint 1 - Class 2
+# Unit 3 - Sprint 1 - Class 2
 
 Outline:
 
-  1) Docs, Style, PEP8 and Docstrings
-  2) OOP Concepts
-  3) Classes and Inheritance in Python
+  1) Review of Lambdata Package Functionality
+  2) Docs, Style, PEP8 and Docstrings
+  3) OOP Concepts
+  4) Classes and Inheritance in Python
 
 Topics:
 
@@ -22,6 +23,19 @@ Lambda Materials:
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module2-oop-code-style-and-reviews
 
 ## Part I
+
+Review of functionality for lambdata package - operating on dataframes, converting a column of state abbreviations to state names. Using a functional approach (for now).
+
+```sh
+# debugging with breakpoint:
+for i in [1,2,3,4,5]:
+    if i >= 3:
+      breakpoint()
+```
+
+> NOTE: breakpoint() is available as of Python 3.7 or later. For earlier versions, try `from pdb import set_trace as breakpoint` and then you should be able to use `breakpoint()`.
+
+## Part II
 
 Style, Formatting, PEP8, and Docstrings:
 
@@ -45,18 +59,18 @@ pipenv install autopep8 --dev
 autopep8 --in-place --aggressive --recursive .
 ```
 
-(FYI) Doc generation, Read The Docs, Sphinx:
+Doc generation, Read The Docs, Sphinx (BONUS):
 
   + https://readthedocs.org/
   + https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
   + https://www.youtube.com/watch?v=b4iFyrLQQh4
 
-(FYI) Doc generation example (Pandas):
+Doc generation example (Pandas):
 
   + https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
   + https://github.com/pandas-dev/pandas/blob/master/pandas/core/frame.py#L319
 
-## Part II
+## Part III
 
 Classes and OOP:
 
@@ -67,13 +81,13 @@ Classes and OOP:
   + https://realpython.com/instance-class-and-static-methods-demystified/#static-methods
 
 
-(FYI) Example of Refactoring from Functions to Classes:
+Example of Refactoring from Functions to Classes (BONUS):
   + https://github.com/s2t2/playlist-service-py/blob/25cae16201adc935f71e863a79d51690c00e492b/app/spotify_service.py
   + https://github.com/s2t2/playlist-service-py/blob/master/app/spotify_service.py
   + https://github.com/s2t2/playlist-service-py/blob/master/app/sync_service.py
 
 
-## Part III
+## Part IV
 
 Class Inheritance in Python:
 
