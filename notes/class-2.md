@@ -26,11 +26,17 @@ Lambda Materials:
 
 Review of functionality for lambdata package - operating on dataframes, converting a column of state abbreviations to state names. Using a functional approach (for now).
 
+Introspection and debugging:
+
 ```sh
+# introspection:
+type("HELLO") # what datatype /class is this object?
+dir("HELLO") # method methods and properties are available to be invoked on the object?
+
 # debugging with breakpoint:
 for i in [1,2,3,4,5]:
     if i >= 3:
-      breakpoint()
+        breakpoint()
 ```
 
 > NOTE: breakpoint() is available as of Python 3.7 or later. For earlier versions, try `from pdb import set_trace as breakpoint` and then you should be able to use `breakpoint()`.
