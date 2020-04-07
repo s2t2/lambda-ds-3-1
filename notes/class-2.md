@@ -63,6 +63,17 @@ Style, Formatting, PEP8, and Docstrings:
 
 > The docstring for a function or method should summarize its behavior and document its arguments, return value(s), side effects, exceptions raised, and restrictions on when it can be called (all if applicable). Optional arguments should be indicated. It should be documented whether keyword arguments are part of the interface. - PEP 257
 
+Doc generation example (Pandas):
+
+  + https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
+  + https://github.com/pandas-dev/pandas/blob/master/pandas/core/frame.py#L319
+
+Doc generation, Read The Docs, Sphinx (BONUS):
+
+  + https://readthedocs.org/
+  + https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+  + https://www.youtube.com/watch?v=b4iFyrLQQh4
+
 Style-checking:
 
   + https://pypi.org/project/autopep8/
@@ -76,17 +87,6 @@ pipenv install autopep8 --dev
 # make a commit before running the following command, as the in-place flag will modify your files:
 autopep8 --in-place --aggressive --recursive .
 ```
-
-Doc generation, Read The Docs, Sphinx (BONUS):
-
-  + https://readthedocs.org/
-  + https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
-  + https://www.youtube.com/watch?v=b4iFyrLQQh4
-
-Doc generation example (Pandas):
-
-  + https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
-  + https://github.com/pandas-dev/pandas/blob/master/pandas/core/frame.py#L319
 
 ## Part III
 
