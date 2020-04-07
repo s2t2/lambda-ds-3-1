@@ -8,15 +8,6 @@ Outline:
   3) OOP Concepts
   4) Classes and Inheritance in Python
 
-Topics:
-
-  + code formatting / style / documentation (pep8)
-  + refactoring / simplification
-  + functional vs object-oriented programming
-  + classes, initialization, construction
-  + static methods, properties, attributes, class methods
-  + inheritance, super
-
 Lambda Materials:
 
   + https://learn.lambdaschool.com/ds/module/recqeF16aJfb1UTWF/
