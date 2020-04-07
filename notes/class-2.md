@@ -53,6 +53,9 @@ Style, Formatting, PEP8, and Docstrings:
   + https://www.python.org/dev/peps/pep-0257/
   + https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format
   + https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+  + https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+
+> The docstring for a function or method should summarize its behavior and document its arguments, return value(s), side effects, exceptions raised, and restrictions on when it can be called (all if applicable). Optional arguments should be indicated. It should be documented whether keyword arguments are part of the interface. - PEP 257
 
 Style-checking:
 
