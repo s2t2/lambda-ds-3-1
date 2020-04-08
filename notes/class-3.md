@@ -17,6 +17,12 @@ Review of Virtual Environments and OOP
   + [Class 1](class-1.md)
   + [Class 2](class-2.md)
 
+Review of the Lambdata Package Functionality:
+
+  + [Functional Approach](/app/class-2/assignment_func.py)
+  + [OOP Approach](/app/class-2/assignment_oop.py)
+  + [Inheritance Approach](/app/class-2/assignment_oop_inherit.py)
+
 ## Part III
 
 Using a Docker image:
