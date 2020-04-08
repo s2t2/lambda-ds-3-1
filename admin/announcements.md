@@ -20,8 +20,20 @@ Good luck! Talk soon, and see you in class!
 
 
 
-## Class 2
 
-## Class 3
+## Class 3 Prep
+
+Send this before Class 3 (day of might be fine):
+
+```
+Hey @channel, heads up we'll be working with Docker today.
+
+If you have Linux, MacOS Sierra or newer or Windows 10 Pro, install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+Else If you have older MacOS, Windows 10 Home, or older Windows, install [Docker Toolbox](https://docs.docker.com/toolbox/overview/)
+
+If you're unable to locally install Docker, sign up for an account at [Docker Hub](https://hub.docker.com/)
+```
+
 
 ## Class 4

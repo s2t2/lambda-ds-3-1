@@ -1,10 +1,6 @@
 
 # Notes and Reference Materials - Unit 3 - Sprint 1 - Class 3
 
-> If you have Linux, MacOS Sierra or newer or Windows 10 Pro, install [Docker Desktop](https://www.docker.com/products/docker-desktop)
-> Else If you have older MacOS, Windows 10 Home, or older Windows, install [Docker Toolbox](https://docs.docker.com/toolbox/overview/)
-> If you're unable to locally install Docker, sign up for an account at [Docker Hub](https://hub.docker.com/)
-
 Lambda Material:
 
   + https://learn.lambdaschool.com/ds/module/recLjxZbBV3Jmrj2T/
