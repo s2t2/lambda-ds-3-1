@@ -1,5 +1,5 @@
 
-# Unit 3 - Sprint 1 - Class 2
+# Notes and Reference Materials - Class 2
 
 Outline:
 

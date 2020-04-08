@@ -1,5 +1,5 @@
 
-# Notes and Reference Materials - Unit 3 - Sprint 1 - Class 3
+# Notes and Reference Materials - Class 3
 
 Lambda Material:
 
