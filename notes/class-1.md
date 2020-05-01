@@ -2,6 +2,29 @@
 
 # Notes and Reference Materials - Class 1
 
+Announcement:
+
+```
+Hey @channel, my name is Mike Rossetti and I'll be your instructor for Unit 3. :wave: Our primary goals for this unit are 1) to transition from notebooks to local development, and 2) to ensure our data science efforts are verifiable and reproducible.
+
+To fully prepare for our first class, you should be able to run each of the following commands successfully:
+
+  + `conda --version`
+  + `pipenv --version`
+  + `git --version`
+  + `code ~/Desktop` (Mac, Git Bash on Windows) OR `code ______` (other Windows)
+
+If you need help getting things set up, I encourage you to consult this detailed "Onboarding Guide", which will walk you through the process and address common questions raised by students in previous cohorts:
+
+https://github.com/s2t2/lambda-ds-3-1/blob/master/ONBOARDING.md
+
+Also, to prepare for the first class, you'll need to register for a test PyPI account:
+
+https://test.pypi.org/account/register/
+
+If you have any questions or run into any issues, post a message here. I'll be monitoring Slack over the weekend and we can work through any issues together. Have a good weekend!
+```
+
 Topics:
   1. Git Repositories
   2. Pipenv Virtual Environments
@@ -12,6 +35,33 @@ Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recwEPR24pu5LCnA5
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments
 
+## Part 0 - Notebooks vs Local Development
+
+### Co-lab Notebooks
+
+Advantages:
+  + Minimal learning curve
+  + High degree of visibility and shareability
+  + Effective presentation when code mixed with markdown and data visualizations
+  + GPU / TPU processing power
+
+Disadvantages:
+  + Can only write and execute Python code
+  + Minimal processing power and parallel processing capabilities (excluding GPU / TPU)
+  + Relatively low degree of customization
+  + Can’t run certain kinds of apps written in frameworks like Flask
+
+### Local Development
+
+Advantages:
+  + Can write and execute code written in many different languages and frameworks
+  + Greater degree of customization / control
+  + Greater privacy (not managed by Google)
+  + More processing power and parallel processing capabilities (excluding GPU / TPU)
+
+Disadvantages:
+  + Steeper learning curve, likely many tools to learn
+  + Not as immediately shareable, unless pushing code to GitHub or a remote server
 
 ## Part I - Git Repositories
 
