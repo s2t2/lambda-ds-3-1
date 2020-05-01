@@ -1,7 +1,33 @@
 
 # Unit 3 Onboarding
 
-## Overview of Local Development Tools
+## Notebooks vs Local Development
+
+Co-lab Notebook Advantages:
+  + Minimal learning curve
+  + High degree of visibility and shareability
+  + Effective presentation when code mixed with markdown and data visualizations
+  + GPU / TPU processing power
+
+Co-lab Notebook Disadvantages:
+  + Can only write and execute Python code, not other languages
+  + Minimal processing power and parallel processing capabilities (excluding GPU / TPU)
+  + Relatively low ability to manage files and credentials
+  + Relatively low degree of customization
+  + Unable to run certain kinds of apps, like web apps written in the Flask framework
+
+Local Development Advantages:
+  + Can write and execute code written in many different languages and frameworks
+  + Greater ability to manage files and credentials
+  + Greater degree of customization / control
+  + Greater privacy (not managed by Google)
+  + More processing power and parallel processing capabilities (excluding GPU / TPU)
+
+Local Development Disadvantages:
+  + Steeper learning curve, likely many tools to learn
+  + Not as immediately shareable, unless pushing code to GitHub or a remote server
+
+## Local Development Tools
 
 Category | Recommended Tool(s) | Purpose
 --- | --- | ---
@@ -12,8 +38,6 @@ Programming Language Virtual Environment Manager | Anaconda (`conda`) or Pipenv 
 Programming Language Package Manager | Pip (`pip`) in general and in Anaconda environments, but replaced by `pipenv` for Pipenv environments. | For installing third-party packages written in a given programming language.
 Version Control Utility | Git (`git`) | For incrementally saving different versions of software files, and interfacing with GitHub, which is an online place to share code repositories.
 Server Management Utility | Heroku (`heroku`) | For provisioning and managing remote servers on which to run software.
-
-I know many of you are already familiar with local development to varying degrees, but some of you may be completely unfamiliar. So follow the instructions below as they pertain to your individual situation.
 
 ### Text Editor
 

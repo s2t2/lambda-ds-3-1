@@ -12,7 +12,7 @@ To fully prepare for our first class, you should be able to run each of the foll
   + `conda --version`
   + `pipenv --version`
   + `git --version`
-  + `code ~/Desktop` (Mac, Git Bash on Windows) OR `code ______` (other Windows)
+  + `code ~/Desktop` (Mac, Windows Git Bash) OR `code C:\Users\USERNAME\Desktop` (Windows other)
 
 If you need help getting things set up, I encourage you to consult this detailed "Onboarding Guide", which will walk you through the process and address common questions raised by students in previous cohorts:
 
@@ -34,34 +34,6 @@ Topics:
 Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recwEPR24pu5LCnA5
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments
-
-## Part 0 - Notebooks vs Local Development
-
-### Co-lab Notebooks
-
-Advantages:
-  + Minimal learning curve
-  + High degree of visibility and shareability
-  + Effective presentation when code mixed with markdown and data visualizations
-  + GPU / TPU processing power
-
-Disadvantages:
-  + Can only write and execute Python code
-  + Minimal processing power and parallel processing capabilities (excluding GPU / TPU)
-  + Relatively low degree of customization
-  + Can’t run certain kinds of apps written in frameworks like Flask
-
-### Local Development
-
-Advantages:
-  + Can write and execute code written in many different languages and frameworks
-  + Greater degree of customization / control
-  + Greater privacy (not managed by Google)
-  + More processing power and parallel processing capabilities (excluding GPU / TPU)
-
-Disadvantages:
-  + Steeper learning curve, likely many tools to learn
-  + Not as immediately shareable, unless pushing code to GitHub or a remote server
 
 ## Part I - Git Repositories
 
