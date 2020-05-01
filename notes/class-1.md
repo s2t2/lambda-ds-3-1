@@ -1,6 +1,6 @@
 
 
-# Notes and Reference Materials - Class 1
+# Class 1
 
 Announcement:
 
@@ -16,14 +16,20 @@ To fully prepare for our first class, you should be able to run each of the foll
 
 If you need help getting things set up, I encourage you to consult this detailed "Onboarding Guide", which will walk you through the process and address common questions raised by students in previous cohorts:
 
-https://github.com/s2t2/lambda-ds-3-1/blob/master/ONBOARDING.md
+  + https://github.com/s2t2/lambda-ds-3-1/blob/master/ONBOARDING.md
 
-Also, to prepare for the first class, you'll need to register for a test PyPI account:
+Also, to prepare for the first class, please review the official lambda material for this sprint and register for a test PyPI account:
 
-https://test.pypi.org/account/register/
+  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering
+  + https://learn.lambdaschool.com/ds/sprint/recA7O3QeO8AQxsxE
+  + https://test.pypi.org/account/register/
 
 If you have any questions or run into any issues, post a message here. I'll be monitoring Slack over the weekend and we can work through any issues together. Have a good weekend!
 ```
+
+Lambda Materials:
+  + https://learn.lambdaschool.com/ds/module/recwEPR24pu5LCnA5
+  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments
 
 Topics:
   1. Git Repositories
@@ -31,9 +37,6 @@ Topics:
   3. Python Imports, Modules, and Packages
   4. Releasing a Python Package to PyPI
 
-Lambda Materials:
-  + https://learn.lambdaschool.com/ds/module/recwEPR24pu5LCnA5
-  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments
 
 ## Part I - Git Repositories
 

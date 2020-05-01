@@ -1,5 +1,6 @@
 
-# Notes and Reference Materials - Class 3
+# Class 3
+
 
 Announcement:
 
@@ -13,10 +14,11 @@ Else If you have older MacOS, Windows 10 Home, or older Windows, install [Docker
 If you're unable to locally install Docker, sign up for an account at [Docker Hub](https://hub.docker.com/)
 ```
 
-Lambda Material:
+Lambda Materials:
 
   + https://learn.lambdaschool.com/ds/module/recLjxZbBV3Jmrj2T/
   + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module3-containers-and-reproducible-builds
+
 
 ## Part I and II
 

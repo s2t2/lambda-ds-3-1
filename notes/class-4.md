@@ -1,6 +1,6 @@
 
 
-# Notes and Reference Materials - Class 4
+# Class 4
 
 Lambda Materials:
   + https://learn.lambdaschool.com/ds/module/recq9eVVCzZpgeH58/

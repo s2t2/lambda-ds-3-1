@@ -1,11 +1,12 @@
 # Lambda DS Unit 3 - Sprint 1
 
-Lecture notes and references to accompany the official Lambda materials.
+Lecture notes and references:
 
-Lambda Materials:
-
-  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering
-  + https://learn.lambdaschool.com/ds/sprint/recA7O3QeO8AQxsxE
+  + [Onboarding Guide](/ONBOARDING.md)
+  + [Class 1](/notes/class-1.md)
+  + [Class 2](/notes/class-2.md)
+  + [Class 3](/notes/class-3.md)
+  + [Class 4](/notes/class-4.md)
 
 Example "Lambdata" package solutions:
 
@@ -13,5 +14,3 @@ Example "Lambdata" package solutions:
   + https://github.com/s2t2/my-lambdata-pt4
   + https://github.com/s2t2/my-lambdata-12
   + https://github.com/s2t2/my-lambdata-11
-
-## [Onboarding Guide](/ONBOARDING.md)

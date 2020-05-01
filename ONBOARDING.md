@@ -1,6 +1,8 @@
 
 # Unit 3 Onboarding
 
+This document contains an introduction to the local development environment and provides instructions for how to install and configure all the necessary local development tools.
+
 ## Notebooks vs Local Development
 
 Co-lab Notebook Advantages:

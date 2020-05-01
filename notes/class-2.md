@@ -1,5 +1,10 @@
 
-# Notes and Reference Materials - Class 2
+# Class 2
+
+Lambda Materials:
+
+  + https://learn.lambdaschool.com/ds/module/recqeF16aJfb1UTWF/
+  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module2-oop-code-style-and-reviews
 
 Outline:
 
@@ -7,11 +12,6 @@ Outline:
   2) Docs, Style, PEP8 and Docstrings
   3) OOP Concepts
   4) Classes and Inheritance in Python
-
-Lambda Materials:
-
-  + https://learn.lambdaschool.com/ds/module/recqeF16aJfb1UTWF/
-  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module2-oop-code-style-and-reviews
 
 ## Part I
 
