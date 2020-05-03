@@ -5,26 +5,24 @@
 Announcement:
 
 ```
-Hey @channel, my name is Mike Rossetti and I'll be your instructor for Unit 3. :wave: Our primary goals for this unit are 1) to transition from notebooks to local development, and 2) to ensure our data science efforts are verifiable and reproducible.
+Hey @channel, my name is Mike Rossetti and I'll be your instructor for Unit 3. :wave: To prepare for the first class, please review the official Lambda material and register for a test PyPI account:
 
-To fully prepare for our first class, you should be able to run each of the following commands successfully:
+  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering
+  + https://learn.lambdaschool.com/ds/sprint/recA7O3QeO8AQxsxE
+  + https://test.pypi.org/account/register/
 
-  + `conda --version`
-  + `pipenv --version`
-  + `git --version`
-  + `code ~/Desktop` (Mac, Windows Git Bash) OR `code C:\Users\USERNAME\Desktop` (Windows other)
+Also ensure you are able to run each of the following commands without error:
 
-If you need help getting things set up, I encourage you to consult this detailed "Onboarding Guide", which will walk you through the process and address common questions raised by students in previous cohorts:
+  + conda --version
+  + pipenv --version
+  + git --version
+  + code ~/Desktop (Mac / Windows Git Bash) or code C:\Users\USERNAME\Desktop (Windows other)
 
-  + https://github.com/s2t2/lambda-ds-3-1/blob/master/ONBOARDING.md
+If you need help setting up your local development environment, I encourage you to consult this detailed "Onboarding Guide", which will walk you through the process and address common questions raised by students in previous cohorts:
 
-Also, to prepare for the first class, please review the official lambda material for this sprint and register for a test PyPI account:
+  + https://github.com/s2t2/lambda-ds-3-1/blob/master/ONBOARDING.md
 
-  + https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering
-  + https://learn.lambdaschool.com/ds/sprint/recA7O3QeO8AQxsxE
-  + https://test.pypi.org/account/register/
-
-If you have any questions or run into any issues, post a message here. I'll be monitoring Slack over the weekend and we can work through any issues together. Have a good weekend!
+If you have any questions or run into any issues, post a message here and we can work through them together. Looking forward to working with you, and see you on Monday morning!
 ```
 
 Lambda Materials:
