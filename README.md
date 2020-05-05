@@ -10,6 +10,7 @@ Lecture notes and references:
 
 Example "Lambdata" package solutions:
 
+  + https://github.com/s2t2/lambdata-14
   + https://github.com/s2t2/my-lambdata-13
   + https://github.com/s2t2/my-lambdata-pt4
   + https://github.com/s2t2/my-lambdata-12
