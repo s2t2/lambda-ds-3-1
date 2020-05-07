@@ -257,4 +257,8 @@ After the package source code has been "built" locally, use twine to upload the 
 
 ```sh
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+# OR, if you see 403 "file already exists" errors:
+twine upload --skip-existing --repository-url https://test.pypi.org/legacy/ dist/*
 ```
+
