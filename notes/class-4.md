@@ -13,6 +13,9 @@ Previous Lecture and Materials on Testing (BONUS / FYI) :
 
 See also the [reference test code](/test/).
 
+Testing Philosophies at Google vs. Facebook (BONUS):
+  + https://www.youtube.com/watch?v=GjE7clki4a0
+ 
 ## Part I
 
 Testing Frameworks (Unittest):
