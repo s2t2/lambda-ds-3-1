@@ -89,3 +89,4 @@ docker attach <container id> # reconnects to a running docker container
 FYI: Here's a more in-depth walkthrough of Docker, for those who are interested:
 
   + https://youtu.be/nrzxKL4bsLI
+  + https://www.youtube.com/watch?v=kQbDnDsO8MQ&feature=youtu.be
