@@ -78,7 +78,13 @@ ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    pip install pandas 
+    pip install --upgrade pip
+
+RUN pip install pandas 
+    
+#  or install packages from the requirements.txt file (must be in same dir as Dockerfile)
+# COPY requirements.txt /tmp/requirements.txt
+# RUN pip install -r /tmp/requirements.txt
 ```
 
 > Thanks to Robert from DS PT5 for [sharing](https://lambda-students.slack.com/archives/GQE2AB1GC/p1589255699396000)!
