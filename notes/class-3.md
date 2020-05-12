@@ -67,6 +67,22 @@ RUN pip3 install pandas
 #RUN pipenv install pandas
 ```
 
+Alternatively, try this Dockerfile which directly uses the "python" image:
+
+```sh
+# Dockerfile
+
+FROM python:3
+
+ENV PYTHONUNBUFFERED=1
+
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    pip install pandas 
+```
+
+> Thanks to Robert from DS PT5 for [sharing](https://lambda-students.slack.com/archives/GQE2AB1GC/p1589255699396000)!
+
 Run from the directory where the dockerfile is:
 
 ```sh
@@ -84,7 +100,9 @@ docker start <container id> # starts a paused docker container
 docker attach <container id> # reconnects to a running docker container
 ```
 
-> Special [thanks](https://app.slack.com/client/T4JUEB3ME/GPP0JA5RD/thread/GPP0JA5RD-1581534096.091100) to Benjamin and Caleb from DS 11
+> Thanks to Benjamin and Caleb from DS 11 for [sharing](https://app.slack.com/client/T4JUEB3ME/GPP0JA5RD/thread/GPP0JA5RD-1581534096.091100)
+
+
 
 FYI: Here's a more in-depth walkthrough of Docker, for those who are interested:
 
