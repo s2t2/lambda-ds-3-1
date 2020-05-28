@@ -1,4 +1,4 @@
-# Lambda DS Unit 3 - Sprint 1
+# DS Unit 3 - Sprint 1
 
 Lecture notes and references:
 
