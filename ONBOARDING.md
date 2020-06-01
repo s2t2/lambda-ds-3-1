@@ -100,7 +100,7 @@ Although you should really invest the time to become a Git command-line pro, stu
 
 ## Success Criteria
 
-After installing and configuring these local development tools, you should be abble run each of the following commands without error:
+After installing and configuring these local development tools, you should be able run each of the following commands without error:
 
   + `conda --version`
   + `pipenv --version`
