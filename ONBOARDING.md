@@ -98,8 +98,17 @@ We'll ideally want to get comfortable using Git from the command line. For more 
 
 Although you should really invest the time to become a Git command-line pro, students on either Mac or Windows who are less comfortable with the command-line may optionally start by using the [GitHub Desktop](https://desktop.github.com/) application as a temporary bridge solution which provides a graphical user interface (GUI) for performing Git version control operations. If doing so, students should [customize GitHub Desktop](https://github.com/prof-rossetti/intro-to-python/blob/master/notes/devtools/github-desktop.md#configuration) to recognize their preferred dev tools (e.g. VS Code as the preferred text editor, and Terminal or Git Bash as the preferred command-line utility.)
 
+## Success Criteria
+
+After installing and configuring these local development tools, you should be abble run each of the following commands without error:
+
+  + `conda --version`
+  + `pipenv --version`
+  + `git --version`
+  + `code ~/Desktop` (Mac Terminal, Windows Git Bash) OR `code C:\Users\USERNAME\Desktop` (Windows other)
+
 ## Preparation Exercise
 
-Finally, after installing and configuring these local development tools, in order to become more comfortable with command-line computing, you're recommended to complete this optional [Command-line Computing exercise](https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/command-line-computing).
+Finally, in order to become more comfortable with these tools and command-line computing in general, consider completing this optional [Command-line Computing Exercise](https://github.com/prof-rossetti/intro-to-python/tree/master/exercises/command-line-computing).
 
 Good luck, drop questions in Slack if you need help, and see you in class!
