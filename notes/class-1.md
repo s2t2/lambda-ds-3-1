@@ -75,7 +75,7 @@ A virtual environment is a place where we install specific version of the python
 
 ### Anaconda Environments
 
-> NOTE: OK to skip this Anaconda information for now. We'll be using Pipenv exclusively in Unit 3.
+> NOTE: OK to skip (i.e. read but not attempt / follow- along with) this Anaconda information for now. We'll be using Pipenv exclusively in Unit 3. 
 
 Advantages:
   + Can be created, modified, activated from anywhere on the filesystem
