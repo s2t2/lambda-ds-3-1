@@ -71,9 +71,11 @@ git push origin master # uploads the code to GitHub
 
 A virtual environment is a place where we install specific version of the python programming language and third-party Python packages. Different projects often require different dependencies, and project-specific virtual environments help us prevent conflicts between different versions.
 
-> NOTE: we'll use either Anaconda or Pipenv for managing virtual environments. The instructions below show you both ways (for instructional purposes), but normally you'd just choose one!
+> NOTE: we'll use either Anaconda or Pipenv for managing virtual environments. The instructions below show you both ways (for instructional purposes), but normally you'd just choose one! In Unit 3, we'll be focusing on Pipenv exclusively.
 
 ### Anaconda Environments
+
+> NOTE: OK to skip this Anaconda information for now. We'll be using Pipenv exclusively in Unit 3.
 
 Advantages:
   + Can be created, modified, activated from anywhere on the filesystem
