@@ -20,6 +20,8 @@ Testing Philosophies at Google vs. Facebook (BONUS):
 
 Testing Frameworks (Unittest):
   + https://docs.python.org/3.5/library/unittest.html
+  + https://docs.python.org/3.5/library/unittest.html#organizing-tests
+  + https://docs.python.org/3.5/library/unittest.html#test-discovery
 
 Running tests:
 
@@ -27,7 +29,13 @@ Running tests:
 python -m unittest test.team_test
 ```
 
+It may be possible to run all tests at once:
+
+```sh
+```
+
 > NOTE: may need to add "`__init__.py`" files to both the "app" and "test" directories for this to work from the root directory
+
 
 ## Part II (FYI / BONUS)
 
