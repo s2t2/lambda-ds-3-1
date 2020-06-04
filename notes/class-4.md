@@ -32,6 +32,7 @@ python -m unittest test.team_test
 It may be possible to run all tests at once:
 
 ```sh
+python -m unittest discover
 ```
 
 > NOTE: may need to add "`__init__.py`" files to both the "app" and "test" directories for this to work from the root directory
