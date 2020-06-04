@@ -115,14 +115,21 @@ if __name__ == "__main__":
 
     #df = DataFrame(...)
     # df.head()
-    polo1 = Polo(color="Blue", size="L", price=4.99)
+    polo1 = Polo(color="Blue", size="L", price=4.99) # a new "instance" of the class
     print(polo1.color)
     print(polo1.price)
 
-    polo2 = Polo(color="Yello", size="Small")
+    polo2 = Polo(color="Yello", size="Small")  # a new "instance" of the class
     print(polo2.color)
     print(polo2.price)
 ```
+
+> TERMINOLOGY NOTE: the `__init__` function inside a class is often called the "constructor" or "initializer" function
+
+> TERMINOLOGY NOTE: when we create a new instance of the class (e.g. `polo1` and `polo2`, we call this "initialization" or "instantiation"
+
+
+### Refactoring from a Functional to an Object-Oriented Approach
 
 Example of a functional approach:
 
